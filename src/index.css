@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  /*HOMECOMPONENT*/
+
+  /* BAGIAN NAVBAR */
+  /*general settings*/
+  nav {
+    @apply bg-white bg-opacity-5;
+    backdrop-filter: blur(5px);
+    height: 13%;
+  }
+
+  /*untuk searchbar*/
+  .searchbar {
+    width: 22rem;
+    height: 2.5rem;
+    border: none;
+    background-color: transparent;
+    caret-color: #fff;
+    color: #fff;
+  }
+  .searchbar::placeholder {
+    color: #e87d0e;
+  }
+  .searchbar:focus {
+    border-color: #e87d0e;
+    outline: none;
+    box-shadow: none;
+  }
+  /*untuk icon*/
+  .icon {
+    width: 1.625rem;
+    height: 1.625rem;
+  }
+
+  .searchform {
+    border: 1px solid #e87d0e;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(232, 166, 97, 0.3);
+    caret-color: #e87d0e;
+  }
+  /*text hover*/
+  .textlinkhover:hover {
+    transform: scale(1.2);
+  }
+
+  /*loginbutton hover*/
+  .loginbuttonhover:hover {
+    background-color: rgba(232, 166, 97, 0.3);
+    border: 1px solid #e87d0e;
+  }
+
+  /*NAVBAR END HERE*/
+
+  /*HOMEPAGE*/
+  /*Hero section*/
+  .buttonlineargradient {
+    background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+  }
+  .buttonlineargradient:hover {
+    background: rgba(232, 166, 97, 0.3);
+    border: 1px solid #e87d0e;
+  }
+
+  .hero-img {
+    background-image: url("src/assets/joy_stick1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-unrealengine-icon {
+    background-image: url("src/assets/unreal1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13.625rem;
+    right: 18.75rem;
+    z-index: -1;
+  }
+  .hero-cryengine-icon {
+    background-image: url("src/assets/cry 1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13.125rem;
+    right: 38rem;
+    z-index: -1;
+  }
+  .hero-unity-icon {
+    background-image: url("src/assets/unity 1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 48%;
+    z-index: -1;
+  }
+  /*POPULAR GAME SECTION*/
+  /*price-tag*/
+  .harga {
+    font-size: 22px;
+    width: fit-content;
+    font-weight: 500;
+    line-height: 187.5%;
+  }
+
+  .seeallhover:hover {
+    background-color: rgba(255, 255, 255, 0.263);
+  }
+
+  /*SUPPORTED DEVICES SECTION */
+  /* section background*/
+  .supported-device {
+    background-image: url("./assets/supported-device-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+  }
+
+  .bg-darkalpha {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: auto;
+  }
+
+  /* .supported-device:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: " ";
+    z-index: 1;
+  } */
+
+  /* -icons- */
+  .mobile-icon {
+    background-image: url("src/assets/smartphone (2) 1.svg");
+    background-repeat: no-repeat;
+  }
+  .mobile-circle {
+    background-image: url("src/assets/circlefordevices.png");
+    background-repeat: no-repeat;
+  }
+  .PC-icon {
+    background-image: url("src/assets/pc 1.svg");
+    background-repeat: no-repeat;
+  }
+  .PC-circle {
+    background-image: url("src/assets/circlefordevices.png");
+    background-repeat: no-repeat;
+  }
+  .PS-icon {
+    background-image: url("src/assets/ps4 1.svg");
+    background-repeat: no-repeat;
+  }
+  .PS-circle {
+    background-image: url("src/assets/circlefordevices.png");
+    background-repeat: no-repeat;
+  }
+  .VR-icon {
+    background-image: url("src/assets/vr-glasses 1.svg");
+    background-repeat: no-repeat;
+  }
+  .VR-circle {
+    background-image: url("src/assets/circlefordevices.png");
+    background-repeat: no-repeat;
+  }
+
+  /*GAMING NEWS*/
+  /*box design for user-email container*/
+  /* width: 1120px;
+height: 189px;
+border-radius: 15px;
+background: #1C140F; */
+  .emaildarkbox {
+    width: 75rem;
+    height: 11.813rem;
+    border-radius: 15px;
+    background-color: #1c140f;
+    padding: 3rem 4rem;
+  }
+  input[type="email"]:focus {
+    border-color: #e87d0e;
+    outline: none;
+    box-shadow: none;
+  }
+  /*FOOTER*/
+  .sosmed-iconhover {
+    transition: 500ms;
+  }
+  .sosmed-iconhover:hover {
+    transform: scale(1.5);
+  }
+}
