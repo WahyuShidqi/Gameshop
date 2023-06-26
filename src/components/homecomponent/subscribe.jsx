@@ -9,7 +9,7 @@ function Subscribe() {
       <div className="user-emailinput emaildarkbox mt-16 flex justify-between">
         <div className="text-line w-[33rem]">
           <h1 className=" font-medium text-3xl">Stay in the loop</h1>
-          <p className="pt-8 ">
+          <p className="pt-3 ">
             Subscribe to receive the latest news and updates about TDA. We
             promise not to spam you!
           </p>
@@ -25,7 +25,7 @@ function Subscribe() {
             />
             <button
               type="submit"
-              className="bg-[#DC7000] w-28 h-9 ml-3 rounded-lg"
+              className="bg-[#DC7000] hover:bg-[#ca6513be] w-28 h-9 ml-3 rounded-lg"
             >
               Subscribe
             </button>

@@ -11,7 +11,9 @@ function Navbar() {
         {/* div1 */}
         <div className="flex items-center">
           <div id="logo">
-            <h1 className="font-black text-3xl text-white">Gameshop</h1>
+            <Link className="Gameshop" to="/">
+              <h1 className="font-black text-3xl text-white">Gameshop</h1>
+            </Link>
           </div>
 
           <div id="search-container" className="pl-5 mr-10 pt-2">
@@ -59,7 +61,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="textlinkhover transition-transform">
-                <Link className="How to buy" to="/How-to-buy">
+                <Link className="How to buy" to="/Howtobuy">
                   How to buy
                 </Link>
               </li>
