@@ -6,7 +6,7 @@ import image4 from "../../assets/Rectangle 18.png";
 
 function PromoSection() {
   return (
-    <div className="container px-40">
+    <div className=" px-40">
       <div id="text-section" className="text-center flex items justify-between">
         <div>
           <h1 className="text-3xl font-extrabold">Promo of the day</h1>

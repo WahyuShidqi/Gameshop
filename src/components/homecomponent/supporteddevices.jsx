@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Devices() {
   return (
-    <section className="supported-device my-52 h-[55rem]">
-      <div className="container bg-darkalpha py-24  px-40 m-0">
+    <section className="supported-device my-52 h-[55rem] w-screen">
+      <div className="bg-darkalpha py-24  px-40 m-0">
         <div className="text-line text-center">
           <h1 className="text-3xl font-extrabold">
             Find the game you like for any device you are using

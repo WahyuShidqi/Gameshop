@@ -40,7 +40,7 @@ function Carousel() {
   // ];
   return (
     <div className="carousel-section px-40">
-      <div className="container flex items-center justify-between mb-14">
+      <div className=" flex items-center justify-between mb-14">
         <h1 className=" h-14 font-bold text-3xl">Currently trending games</h1>
         <Link className="See All" to="/#">
           <ul>

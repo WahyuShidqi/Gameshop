@@ -12,7 +12,7 @@ function Banner() {
         </p>
       </div>
 
-      <div className="banner-container w-fit flex flex-col items-center pt-14">
+      <div className="banner-container flex flex-col items-center pt-14">
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
@@ -21,7 +21,7 @@ function Banner() {
         >
           <SwiperSlide>
             <img
-              className="w-[70rem] h-[28.125rem]"
+              className="w-[73rem] h-[28.125rem]"
               src={spidermanBanner}
               alt="spiderman.png"
             />

@@ -1,9 +1,9 @@
 function Subscribe() {
   return (
-    <div className="container px-40 mt-60">
+    <div className="px-40 mt-60 flex flex-col">
       <div className="text-line">
-        <h1 className=" font-semibold text-3xl">Read our latest gaming news</h1>
-        <p className=" mt-5">simply by entering your email address.</p>
+        <h1 className=" font-semibold text-3xl">Subscribe</h1>
+        <p className=" mt-2">simply by entering your email address.</p>
       </div>
 
       <div className="user-emailinput emaildarkbox mt-16 flex justify-between">

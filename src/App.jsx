@@ -5,6 +5,8 @@ import Howtobuy from "./components/howtobuy";
 import About from "./components/about";
 import News from "./components/news";
 //import Footer from "./components/Layout/footer/footer";
+import Subscribe from "./components/homecomponent/subscribe";
+import Footer from "./components/homecomponent/footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/Howtobuy" element={<Howtobuy />} />
         <Route path="/News" element={<News />} />
       </Routes>
+      <Subscribe />
+      <Footer />
     </>
   );
 }

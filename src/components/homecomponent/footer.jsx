@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <div className="container mt-44  bg-black h-full">
+    <div className=" mt-44  bg-black h-full w-screen">
       <div className="info-wrapper flex justify-around items-center py-20 px-28">
         <div className="logo-address">
           <h1 className="text-2xl font-extrabold mb-10">Gameshop</h1>

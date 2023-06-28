@@ -7,7 +7,7 @@ function Navbar() {
       id="Navbar"
       className="fixed top-0 left-0 right-0 flex items-center z-50 py-10 px-14"
     >
-      <div className="container flex items-center justify-between">
+      <div className="flex items-center justify-between w-screen">
         {/* div1 */}
         <div className="flex items-center">
           <div id="logo">
@@ -47,7 +47,7 @@ function Navbar() {
         </div>
 
         {/* div2 */}
-        <div className="container flex justify-center pl-24">
+        <div className="flex justify-center pl-24">
           <div id="MenuList" className="text-base">
             <ul className="flex items-center gap-10">
               <li className="textlinkhover transition-transform">

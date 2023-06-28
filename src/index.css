@@ -7,6 +7,12 @@
     @apply text-white;
     overflow-x: hidden;
     padding: 0;
+    background: linear-gradient(
+      177deg,
+      #3b2a9f 43.02%,
+      rgb(14, 21, 54) 100%,
+      rgba(114, 138, 185, 0.23) 100%
+    );
   }
   body::-webkit-scrollbar {
     display: none;
@@ -129,7 +135,7 @@
   }
 
   .bg-darkalpha {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(5px);
     height: 100%;
     width: auto;
@@ -182,10 +188,6 @@
 
   /*GAMING NEWS*/
   /*box design for user-email container*/
-  /* width: 1120px;
-height: 189px;
-border-radius: 15px;
-background: #1C140F; */
   .emaildarkbox {
     width: 75rem;
     height: 11.813rem;
@@ -204,5 +206,13 @@ background: #1C140F; */
   }
   .sosmed-iconhover:hover {
     transform: scale(1.5);
+    color: #dc7000;
+  }
+  /*HOMEPAGE END
+  /*ABOUT PAGE*/
+  .aboutquotebackground {
+    background-image: url("./assets/aboutquotecover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

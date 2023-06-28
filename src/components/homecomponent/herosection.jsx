@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
-    <div className="container px-40 flex justify-between mb-[8.25rem]">
+    <div className="px-40 flex justify-between mb-[8.25rem]">
       <div className="Hero-Text pt-[12.688rem]">
         <p className="text-xl font-extrabold text-[#E87D0E]">
           Proved by HSB 5 - 6

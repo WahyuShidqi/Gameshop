@@ -3,11 +3,11 @@
 
 import Banner from "./homecomponent/banner";
 import Carousel from "./homecomponent/carousel";
-import Footer from "./homecomponent/footer";
+// import Footer from "./homecomponent/footer";
 import HeroSection from "./homecomponent/herosection";
 import PromoSection from "./homecomponent/promosection";
 import Quotes from "./homecomponent/quotes";
-import Subscribe from "./homecomponent/subscribe";
+// import Subscribe from "./homecomponent/subscribe";
 import Devices from "./homecomponent/supporteddevices";
 
 function Home() {
@@ -16,12 +16,14 @@ function Home() {
       <section id="Hero-section">
         <HeroSection />
         <Carousel />
-        <Quotes />
+        <Quotes
+          Quote="Its not about how good you are, its about how good you want to be."
+          text="With our service, you can find the game that will challenge you or
+          comfortable for you."
+        />
         <Banner />
         <Devices />
         <PromoSection />
-        <Subscribe />
-        <Footer />
       </section>
     </div>
   );
