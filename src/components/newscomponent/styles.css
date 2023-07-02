@@ -1,0 +1,26 @@
+.Newssearchbar {
+  width: 25rem;
+  height: 2.5rem;
+  border: none;
+  background-color: transparent;
+  caret-color: #fff;
+  color: #fff;
+}
+.Newssearchbar::placeholder {
+  color: #fff;
+}
+.Newssearchbar:focus {
+  border-color: #e87d0e;
+  outline: none;
+  box-shadow: none;
+}
+/*untuk icon*/
+.icon {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.Newssearchform {
+  border-radius: 8px 8px 8px 8px;
+  background-color: #1c140f;
+}

@@ -82,31 +82,19 @@
     border: 1px solid #e87d0e;
   }
 
-  .hero-img {
-    background-image: url("src/assets/joy_stick1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .hero-unrealengine-icon {
-    background-image: url("src/assets/unreal1.png");
-    background-repeat: no-repeat;
     position: absolute;
     top: 13.625rem;
     right: 18.75rem;
     z-index: -1;
   }
   .hero-cryengine-icon {
-    background-image: url("src/assets/cry 1.png");
-    background-repeat: no-repeat;
     position: absolute;
     top: 13.125rem;
     right: 38rem;
     z-index: -1;
   }
   .hero-unity-icon {
-    background-image: url("src/assets/unity 1.png");
-    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     right: 48%;

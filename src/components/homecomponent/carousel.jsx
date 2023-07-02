@@ -8,6 +8,10 @@
 // import Stray from "../../assets/stray.png";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Apex from "/src/assets/apex.png";
+import LOL from "/src/assets/leagueoflegend.png";
+import Crysis from "/src/assets/crysis.png";
+import Stray from "/src/assets/stray.png";
 // Import Swiper styles
 import { Link } from "react-router-dom";
 import "swiper/css";
@@ -63,14 +67,14 @@ function Carousel() {
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide className="flex flex-col items-center">
-          <img src="/src/assets/apex.png" alt="Apex" />
+          <img src={Apex} alt="Apex" />
           <h3 className="harga pt-2">
             Apex <br />
             Rp. 120.000
           </h3>
         </SwiperSlide>
         <SwiperSlide className="flex flex-col items-center">
-          <img src="/src/assets/leagueoflegend.png" alt="LOL" />
+          <img src={LOL} alt="LOL" />
           <h3 className="harga pt-2">
             League of Legends
             <br />
@@ -78,7 +82,7 @@ function Carousel() {
           </h3>
         </SwiperSlide>
         <SwiperSlide className="flex flex-col items-center">
-          <img src="/src/assets/crysis.png" alt="crysis" />
+          <img src={Crysis} alt="crysis" />
           <h3 className="harga pt-2">
             Crysis
             <br />
@@ -86,7 +90,7 @@ function Carousel() {
           </h3>
         </SwiperSlide>
         <SwiperSlide className="flex flex-col items-center">
-          <img src="/src/assets/stray.png" alt="Stray" />
+          <img src={Stray} alt="Stray" />
           <h3 className="harga pt-2">
             Stray
             <br />
