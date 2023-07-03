@@ -15,7 +15,7 @@ function SmallTemp() {
               .5 min ago
             </p>
           </div>
-          <h1 className=" text-2xl font-semibold">
+          <h1 className="pt-5 text-2xl font-semibold">
             Lorem Ipsum is simply dummy text dummy text
           </h1>
         </div>

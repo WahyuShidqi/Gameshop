@@ -1,14 +1,14 @@
+import Headers from "../Headers";
 import "./styles.css";
 
 function Header() {
   return (
-    <div id="Header" className="flex items-center flex-col mb-28">
-      <div id="title" className="text-center">
-        <h1 className="text-4xl font-semibold">Game Related News</h1>
-        <p className=" pt-3">Always up-to-date with your game news</p>
-      </div>
-
-      <div id="search-container" className=" pt-20 w-96">
+    <div id="Header" className="flex items-center flex-col mb-20">
+      <Headers
+        NewsHeader="Game Related News"
+        NewsHeaderText="Always up to date with your gaming news"
+      />
+      <div id="search-container" className=" pt-0 w-96">
         <form action="/" className="Newssearchform flex items-center">
           <i className="icon pl-2 mr-3">
             <svg

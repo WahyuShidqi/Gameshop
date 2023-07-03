@@ -7,6 +7,7 @@ import News from "./components/news";
 //import Footer from "./components/Layout/footer/footer";
 import Subscribe from "./components/homecomponent/subscribe";
 import Footer from "./components/homecomponent/footer";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/About-us" element={<About />} />
         <Route path="/Howtobuy" element={<Howtobuy />} />
         <Route path="/News" element={<News />} />
+        <Route path="/Contact-us" element={<Contact />} />
       </Routes>
       <Subscribe />
       <Footer />

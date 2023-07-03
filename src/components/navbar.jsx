@@ -49,7 +49,7 @@ function Navbar() {
         {/* div2 */}
         <div className="flex justify-center pl-24">
           <div id="MenuList" className="text-base">
-            <ul className="flex items-center gap-10">
+            <ul className="flex items-center gap-8">
               <li className="textlinkhover transition-transform">
                 <Link className="Home" to="/">
                   Home
@@ -62,12 +62,17 @@ function Navbar() {
               </li>
               <li className="textlinkhover transition-transform">
                 <Link className="How to buy" to="/Howtobuy">
-                  How to buy
+                  Shop
                 </Link>
               </li>
               <li className="textlinkhover transition-transform">
                 <Link className="News" to="/News">
                   News
+                </Link>
+              </li>
+              <li className="textlinkhover transition-transform">
+                <Link className="Contact-us" to="/Contact-us">
+                  Contact us
                 </Link>
               </li>
             </ul>
