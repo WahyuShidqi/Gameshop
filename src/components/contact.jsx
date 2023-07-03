@@ -16,7 +16,7 @@ function Contact() {
         <GlobeInfo />
       </div>
 
-      <div className=" mt-40 bg-[#1C140F] h-[54rem] flex justify-center">
+      <div className=" mt-40 bg-[#1C140F] h-[54rem]">
         <UserEmail />
       </div>
     </div>
